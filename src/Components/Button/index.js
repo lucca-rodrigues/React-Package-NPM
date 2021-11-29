@@ -1,16 +1,18 @@
+import { hot } from "react-hot-loader";
 import React from "react";
-import { Button as MaterialUIButton } from "@mui/material";
+
+import { Button as MuiButton } from "@mui/material";
 
 const Button = () => {
   return (
-    <MaterialUIButton
+    <MuiButton
       variant="contained"
       color="primary"
       onClick={() => alert("Clicou!")}
     >
       Hello World
-    </MaterialUIButton>
+    </MuiButton>
   );
 };
 
-export default Button;
+export default hot(module)(Button);

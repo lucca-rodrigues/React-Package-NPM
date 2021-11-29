@@ -9,7 +9,7 @@
     "build": "webpack --mode production"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lucca Rodrigues <contato.luccarodrigues@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@mui/material": "^5.2.2",
