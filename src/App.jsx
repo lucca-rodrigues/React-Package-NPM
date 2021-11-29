@@ -1,12 +1,8 @@
-import { hot } from 'react-hot-loader';
-import React from 'react';
-import './App.css';
+import { hot } from "react-hot-loader";
 
-const message = 'Welcome to react-package-npm';
-const App = () => (
-  <div className="App">
-    <h1>{message}</h1>
-  </div>
-);
+import Button from "./Components/Button";
+const App = () => {
+  return <Button />;
+};
 
 export default hot(module)(App);
